@@ -1,0 +1,75 @@
+.main_div{
+    height: 100vh;
+    max-width: 483px;
+    width: 100%;
+    background: #21092F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 37px;
+    position: relative;
+}
+.colors_div{
+    width:500px;
+    height: 600px;
+position: sticky;
+top: -150px;
+left: 150px;
+}
+.blur_color_div1{
+    width: 248px;
+height: 500px;
+border-radius: 657px;
+opacity: 0.3474;
+background: #D53AFF;
+transform: rotate(45deg);
+filter: blur(67.95704650878906px);
+position: absolute;
+top: -160px;
+left: 0px;
+}
+.blur_color_div2{
+    width: 248px;
+height: 500px;
+transform: rotate(45deg);
+border-radius: 657px;
+opacity: 0.3474;
+background: #FF834A;
+filter: blur(67.95704650878906px);
+position: absolute;
+top: -90px;
+left: 140px;
+}
+.blur_color_div3{
+    width: 248px;
+height: 500px;
+transform: rotate(45deg);
+border-radius: 657px;
+opacity: 0.3474;
+background: #47A2FF;
+filter: blur(67.95704650878906px);
+position: absolute;
+top: 155px;
+left: 0px;
+}
+.cards_div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 37px; ;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 227px;
+}
+@media(max-width:1360px){
+    .main_div{
+max-width: 300px;
+    }
+    .conteiner{
+padding-right: 100px;
+    }
+}

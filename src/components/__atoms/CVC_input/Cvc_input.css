@@ -1,0 +1,20 @@
+.cvc_box{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    }
+    #CVC{
+        width: 191px;
+        height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    outline: none;
+    padding-left: 16px;
+    }
+    .cvc_l{
+        color: var(--Deep-Violet, #21092F);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }

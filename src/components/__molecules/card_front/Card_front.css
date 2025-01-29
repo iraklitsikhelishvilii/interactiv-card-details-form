@@ -1,0 +1,95 @@
+.card_front{
+    width: 447px;
+height: 245px;
+border-radius: 10px;
+background: linear-gradient(164deg, #6348FE 4.74%, #610595 88.83%);
+position: relative;
+overflow: hidden;
+left: 164px;
+}
+.blur_color1{
+    width: 131px;
+    height: 363px;
+transform: rotate(45deg);
+border-radius: 363px;
+opacity: 0.8474;
+background: #D53AFF;
+filter: blur(40px);
+position: relative;
+left: 197px;
+top: -151px;
+}
+.blur_color2{
+    width: 131px;
+    height: 363px;
+transform: rotate(45deg);
+border-radius: 363px;
+opacity: 0.8474;
+background: #FF834A;
+filter: blur(40px);
+position: absolute;
+bottom: 63px;
+right: -48px;
+}
+.blur_color3{
+    width: 131px;
+height: 363px;
+transform: rotate(45deg);
+border-radius: 363px;
+opacity: 0.8474;
+background: #47A2FF;
+filter: blur(40px);
+position: absolute;
+z-index: 2;
+bottom: -141px;
+right: 127px;
+}
+.avatar_img_box{
+    width: 46.957px;
+    height: 47px;
+background-color: White;
+border-radius: 50%;
+}
+.circle_div{
+    width: 21.13px;
+    height: 21.15px;
+    border: 1px solid var(--White, #FFF);
+    border-radius: 50%;
+}
+.avatar_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 17px;
+   position: absolute;
+   top: 28px;
+   left: 32px;
+}
+.card_front_numbers_p{
+    color: var(--White, #FFF);
+    font-size: 28px;
+font-weight: 500;
+letter-spacing: 3.422px;
+}
+.card_front_numbers_p{
+    position: absolute;
+    z-index: 3;
+    bottom: 70px;
+    left: 32px;
+}
+.card_info_p{
+    color: var(--White, #FFF);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 2px;
+}
+.card_front_bottom_div{
+    width: 100%;
+    position: absolute;
+    bottom: 26px;
+    left: 32px;
+    display: flex;
+    z-index: 4;
+   align-items: center;
+   gap: 195px;
+}
