@@ -1,10 +1,19 @@
-// import "../YY_input/Yy_input.css";
-// import React from "react";
-// function Yy_input() {
-//   return (
-//     <>
-//       <input className="yy_input" type="text" placeholder="YY" />
-//     </>
-//   );
-// }
-// export default Yy_input;
+import React from "react";
+import InputMask from "react-input-mask";
+function Yy_input({ YyChange, YY }) {
+  return (
+    <>
+      <InputMask
+        onChange={YyChange}
+        value={YY}
+        className="yy_input"
+        type="text"
+        mask="99"
+        maskChar=""
+        placeholder="YY"
+      />
+    </>
+  );
+}
+
+export default Yy_input;
